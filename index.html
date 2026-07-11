@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/assignment8.css">
+
+<body>
+<header id="header">
+  <div class="nav-bar mx-auto py-3 px-5 position-sticky">
+    <div class="d-flex justify-content-between w-75 mx-auto align-items-center">
+      <div class="d-flex justify-content-start align-items-center gap-2">
+        <div class="nav-icon">
+          <i class="fa-solid fa-utensils text-white fs-6"></i>
+        </div>
+        <div class="nav-header">
+          <h1 class="fs-4 fw-bolder mb-0">What's For Dinner</h1>
+          <p class="fs-6 m-0">Your daily meal inspiration</p>
+        </div>
+      </div>
+
+      <button class="btn d-lg-none" id="mobileMenuBtn">
+        <i class="fa-soh3d fa-bars fs-4"></i>
+      </button>
+
+      <div class="nav-icons d-none d-lg-flex justify-content-evenly gap-3 align-items-center">
+        <i class="fa-solid fa-bookmark"></i>
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <i class="fa-solid fa-gear"></i>
+        <img src="client3.jpeg" class="rounded-circle">
+      </div>
+    </div>
+  </div>
+
+  <div class="desc-nav d-md-none" id="mobileMenu">
+    <button class="d-flex justify-content-start gap-2 align-items-center">
+      <i class="fa-solid fa-bookmark"></i> <span>Saved Recipes</span>
+    </button>
+    <button class="d-flex justify-content-start gap-2 align-items-center">
+      <i class="fa-solid fa-clock-rotate-left"></i> <span>Recent</span>
+    </button>
+    <button class="d-flex justify-content-start gap-2 align-items-center">
+      <i class="fa-solid fa-gear"></i> <span>Settings</span>
+    </button>
+    <button class="d-flex justify-content-start gap-2 align-items-center">
+      <img src="client3.jpeg" class="rounded-circle"> <span>Profile</span>
+    </button>
+  </div>
+</header>
+
+<main>
+      <div class="screen p-5 w-100 h-100">
+          <div class="card recipeDetails mx-auto  rounded-5" id="card"> </div>
+     </div>      
+</main>
+
+<script src="CSS/JS/bootstrap.bundle.min.js"></script>
+<script src="./assignment8.js"></script>
+</body>
+</html>
